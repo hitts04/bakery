@@ -1,0 +1,171 @@
+/* --------- General properties ---------- */
+a{
+  text-decoration: none;
+}
+
+.m0{
+  margin: 0;
+}
+
+/* -------- Header Section -------- */
+
+/* ---- Logo ---- */
+
+.top-logo{
+  text-align: center;
+}
+
+.top-logo img{
+  width: 20%;
+}
+
+/* ---- Navigation Bar ---- */
+
+.nav-bar{
+  text-align: center;
+  margin-bottom: 1vw;
+}
+
+.nav-bar a{
+  margin: 1.5vw;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2vw;
+  font-weight: 400;
+  color: #9b5151;
+}
+.nav-bar a:hover{
+  font-weight: 600;
+}
+
+/* ----- Header image -----*/
+
+.top-img{
+  background-image: url("https://thumbs.dreamstime.com/b/food-bread-bakery-goods-wooden-background-high-resolution-food-bread-bakery-wooden-background-119166802.jpg");
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.2vw;
+}
+.top-img-bread{
+  background-image: url("https://www.whats4eats.com/files/course-breads-whole-wheat-bread-flickr-emiline220-4273700175-4x3_0.jpg");
+}
+.top-img-cookies{
+  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-ms-fields-cookies-024-1544735513.jpg")
+}
+.top-img-cake{
+  background-image: url("https://hips.hearstapps.com/clv.h-cdn.co/assets/16/08/1456262739-cl-speckled-malted-coconut-cake.jpg?crop=0.950xw:0.634xh;0.0192xw,0.331xh&resize=640:*")
+}
+.top-img-pastry{
+  background-image: url("https://i.ytimg.com/vi/3tNVjGLndWo/maxresdefault.jpg");
+}
+
+.top-img h1{
+  padding-top: 20vh;
+}
+
+/* ------ Image & Links to pages ------ */
+
+.links{
+  text-align: center;
+}
+
+.links-head{
+  margin: 10vh auto;
+  font-size: 2.5vw;
+  font-weight: 500;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.images{
+  display: inline-block;
+  vertical-align: top;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2vw;
+}
+
+.images img{
+  width: 20vw;
+  height: 20vw;
+  margin: 1vw 2vw;
+}
+
+.images p{
+  color: #9b5151;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+/* ---- Contact button ---- */
+
+.contact{
+  background-color: #fff;
+  text-align: center;
+  margin-top: 10vh;
+  padding: 2.5vw;
+}
+
+.contact button{
+  padding: 1.2vw;
+  background-color: transparent;
+  border-style: solid;
+  border-width: thin;
+  border-color: #9b5151;
+  border-radius: 20px;
+  color: #9b5151;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5vw;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.contact button:hover{
+  color: #000;
+  border-color: #000;
+}
+
+/* ---- Social Media Links Section ---- */
+
+.social{
+  text-align: center;
+  padding: 2vh 0;
+  color: #000;
+  font-size: 2vw;
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 2px;
+}
+
+.social p{
+  margin-bottom: 1vw;
+}
+
+.social a{
+  color: #9b5151;
+  margin: 1vw;
+}
+.social a:hover{
+  color: #000;
+}
+
+/* ---- footer section ---- */
+.footer{
+  margin-top: 5vw;
+  padding: 2vw;
+  text-align: center;
+  color: white;
+  background-color: #9b5151;
+}
+
+/* ------ Grid layout to use in product images display ------ */
+
+.items{
+  margin: 20vh 10vw;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-row-gap: 10vh;
+  grid-column-gap: 2vw;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6vw;
+}
